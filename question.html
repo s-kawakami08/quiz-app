@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="./questions.js" defer></script>
+    <title>問題1 | Quiz!</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Quiz!</h1>
+        <form id="questions">
+          <div class="section">
+              <h2>問題1</h2>
+              <p>
+                Webページの要素や構造を定義する言語はなんでしょう？
+              </p>
+  
+              <h3>選択肢</h3>
+              <ul class="answers" data-id="question1">
+                <li>
+                  <input type="radio" name="question1" value="A" />
+                  <label for="question1">HTTP</label>
+                </li>
+                <li data-answer="B">
+                  <input type="radio" name="question1" value="B" />
+                  <label for="question1">HTML</label>
+                </li>
+                <li data-answer="C">
+                  <input type="radio" name="question1" value="C" />
+                  <label for="question1">HTTP</label>
+                </li>
+                <li data-answer="D">
+                  <input type="radio" name="question1" value="D" />
+                  <label for="question1">HMV</label>
+                </li>
+              </ul>
+          </div>
+  
+          <!-- <div id="section-correct-answer1" class="section">
+              <h2>答え</h2>
+              <p>
+                  <span id="correct-answer1">B. HTML</span><br />
+                  HTMLとは「Hyper Text Markup Language」の略称です。
+              </p>
+          </div> -->
+  
+          <div class="section">
+            <h2>問題2</h2>
+            <p>
+              「text-align」の正しい読み方は？
+            </p>
+  
+            <h3>選択肢</h3>
+            <ul class="answers" data-id="question2">
+              <li>
+                <input type="radio" name="question2" value="A" />
+                <label for="question2">テキストアライン</label>
+              </li>
+              <li data-answer="B">
+                <input type="radio" name="question2" value="B" />
+                <label for="question2">テキストアリギン</label>
+              </li>
+              <li data-answer="C">
+                <input type="radio" name="question2" value="C" />
+                <label for="question2">テキストアリグン</label>
+              </li>
+              <li data-answer="D">
+                <input type="radio" name="question2" value="D" />
+                <label for="question2">テキストアライグン</label>
+              </li>
+            </ul>
+          </div>
+  
+          <!-- <div id="section-correct-answer2" class="section">
+            <h2>答え</h2>
+            <p>
+                <span id="correct-answer2">A. テキストアライン</span>
+                <br />
+                このプロパティは文字や画像を左右や中央に寄せる指示ができるプロパティです。
+            </p>
+        </div> -->
+  
+          <div class="section">
+            <h2>問題3</h2>
+            <p>
+                文字列を表す型はどれでしょう？
+            </p>
+    
+            <h3>選択肢</h3>
+            <ul class="answers" data-id="question3">
+              <li>
+                <input type="radio" name="question3" value="A" />
+                <label for="question3">INT</label>
+              </li>
+              <li>
+                <input type="radio" name="question3" value="B" />
+                <label for="question3">String</label>
+              </li>
+              <li>
+                <input type="radio" name="question3" value="C" />
+                <label for="question3">float</label>
+              </li>
+              <li>
+                <input type="radio" name="question3" value="D" />
+                <label for="question3">boolean</label>
+              </li>
+            </ul>
+          </div>
+    
+          <button type="submit">回答する</button>
+        </form>
+
+        <div class="section">
+            <a href="./index.html">トップへ戻る</a>
+            <a href="question2.html">次の問題へ</a>
+        </div>
+    </div>
+</body>
+</html>
