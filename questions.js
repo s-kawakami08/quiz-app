@@ -9,8 +9,8 @@ form.addEventListener('submit', (e) => {
 
   const correctAnswers = {
     question1: 'B',
-    question2: 'A',
-    question3: 'B',
+    question2: 'B',
+    question3: 'A',
   };
  
   // 答えは正解か不正解か確認
